@@ -1,6 +1,6 @@
 import { useState, useCallback, useMemo } from "react";
-import * as XLSX from "xlsx";
 const XLSX = window.XLSX;
+
 const COLS = {
   CT: "CT-Number",
   EAN: "EAN",
