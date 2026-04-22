@@ -5,5 +5,10 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: ['xlsx']
+  },
+  build: {
+    commonjsOptions: {
+      transformMixedEsModules: true,
+    }
   }
 })
